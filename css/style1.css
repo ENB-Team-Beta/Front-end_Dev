@@ -1,5 +1,6 @@
 *{
-margin: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
 }
 body, html {
     height: 100%;
@@ -33,11 +34,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .button{
-
-     background-color: coral;
+    background-color: coral;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     padding: 20px;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+.button:hover{
+    background-color: rgb(255, 196, 0);
+    transition: all 0.5s ease-in-out;
 }
 img{
     height: 100%;
@@ -52,7 +58,7 @@ nav{
     width: 100%;
     z-index: 99;
     height: 50px;
-    background-color: rgba(0,0,255,0.5);
+    background-color: rgb(6, 8, 146);
 }
 
 .sect {
